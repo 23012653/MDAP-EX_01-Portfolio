@@ -217,7 +217,11 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
-![Screenshot 2025-04-30 090957](https://github.com/user-attachments/assets/b286247c-05ce-4b5c-ab05-87036d207eb7)
+![Screenshot 2025-04-30 090905](https://github.com/user-attachments/assets/f60e1aa0-1fd8-40f3-a2b0-aac57bdae2c3)
+![Screenshot 2025-04-30 090922](https://github.com/user-attachments/assets/b5269b48-4d9d-4eb1-b10c-1c1808d448c5)
+![Screenshot 2025-04-30 090936](https://github.com/user-attachments/assets/1f7ff00c-ce89-46bc-9f95-440ca3ee8499)
+![Screenshot 2025-04-30 090947](https://github.com/user-attachments/assets/90d9011e-7b5d-4c8d-8078-563710cde2d1)
+![Screenshot 2025-04-30 090957](https://github.com/user-attachments/assets/754b333d-923e-4783-b56c-f85e0ba1ee30)
 
 
 
