@@ -1,5 +1,5 @@
 # MDAP-EX_01-Portfolio
-## Date: 30-04-2025
+## Date: 02-05-2025
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,180 +48,165 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+index.html
 ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style>
-    
-         {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-            align: center
-        }
-
-        header {
-            background-color: #212223;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        nav ul li {
-            display: inline;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 5px 10px;
-        }
-        nav ul li a:hover {
-            color: #636261;
-        }
-
-        section {
-            padding: 60px 20px;
-            margin: 80px 20px 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            text-align: center;
-        }
-
-        .project {
-            background-color: #e6f2ff;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 10px 0;
-        }
-
-        #contact a {
-            color: #5f6061;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        #contact a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #7a7b7c;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                gap: 10px;
-            }
-            section {
-                padding: 40px 15px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <h1>Anubharathi SS</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#internship">Internship</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <section id="intro" class="section intro">
+    <div class="content">
+      <h1>Hello, I'm <span>Your Name</span></h1>
+      <p>I’m a front-end developer passionate about creating beautiful and functional web interfaces.</p>
+    </div>
+  </section>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello!I am a front developer passionate about to create a visual aspects of webpage and application.This role excites me because it combine creativity with technology.I like to make a websites not only good but also function smoothly over different devices.</p>
-</p>
-        </section>
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>I design and develop responsive websites using modern web technologies like HTML, CSS, and JavaScript.</p>
+  </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Mobile App UI</h3>
-                <p>A sleek mobile-first user interface prototype for a task management app, focusing on intuitive navigation and user experience.</p>
-            </div>
-            <div class="project">
-                <h3>E-Commerce Template</h3>
-                <p>An e-commerce product page with interactive filtering, responsive layout, and a simple cart system built using vanilla JavaScript.</p>
-            </div>
-        </section>
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Responsive Website</h3>
+        <p>A fully responsive website layout using Flexbox and Grid.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do Web App</h3>
+        <p>An interactive JavaScript-based to-do list with filtering and persistence.</p>
+      </div>
+    </div>
+  </section>
 
-        <section id="internship">
-            <h2>Internship</h2>
-            <h3>Design-Oriented:<h3></h3>
-            <p>"Collaborated on UI/UX during my internship by creating a mobile-friendly portfolio website with a modern aesthetic.</p>
-        </section>
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>Email: anubharathi05@gamil.com</p>
+    <p>GitHub: <a href="#">github.com/23012653</a></p>
+  </section>
 
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-              <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS</li>
-              <li><strong>Frameworks:</strong> React.js (basics)</li>
-              <li><strong>Tools:</strong> Git, GitHub, VS Code, Chrome DevTools</li>
-              <li><strong>Design:</strong> Responsive Web Design, UI/UX Principles, Figma (basic)</li>
-              <li><strong>Soft Skills:</strong> Problem-solving, Teamwork, Communication, Time Management</li>
-            </ul>
-          </section>
-          
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: anubharathi05@gmail.com</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy;2025 portfolio. All Rights Reserved.</p>
-    </footer>
-
+  <footer>
+    <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
+```
+style.css
+```
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  a {
+    color: #16a833;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links li {
+    list-style: none;
+  }
+  .nav-links a {
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  .nav-links a:hover {
+    background-color: #e8f5e9;
+  }
+  .section {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  .intro {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: white;
+  }
+  .intro h1 span {
+    color: #ffe082;
+  }
+  .about, .projects, .contact {
+    background: white;
+  }
+  .projects .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .project {
+    background: #f0f2f5;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  footer {
+    background: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
 ```
 
-
 ## OUTPUT
-![Screenshot 2025-04-30 090905](https://github.com/user-attachments/assets/f60e1aa0-1fd8-40f3-a2b0-aac57bdae2c3)
-![Screenshot 2025-04-30 090922](https://github.com/user-attachments/assets/b5269b48-4d9d-4eb1-b10c-1c1808d448c5)
-![Screenshot 2025-04-30 090936](https://github.com/user-attachments/assets/1f7ff00c-ce89-46bc-9f95-440ca3ee8499)
-![Screenshot 2025-04-30 090947](https://github.com/user-attachments/assets/90d9011e-7b5d-4c8d-8078-563710cde2d1)
-![Screenshot 2025-04-30 090957](https://github.com/user-attachments/assets/754b333d-923e-4783-b56c-f85e0ba1ee30)
+![Screenshot 2025-05-02 214928](https://github.com/user-attachments/assets/e77788c3-bad3-4c36-9669-fb61c6f0a541)
+![Screenshot 2025-05-02 214942](https://github.com/user-attachments/assets/d68ee165-1333-4048-ba54-f42217f05989)
+
 
 
 
