@@ -73,7 +73,7 @@ index.html
 
   <section id="intro" class="section intro">
     <div class="content">
-      <h1>Hello, I'm <span>Your Name</span></h1>
+      <h1>Hello, I'm <span>Anubharathi SS</span></h1>
       <p>I’m a front-end developer passionate about creating beautiful and functional web interfaces.</p>
     </div>
   </section>
@@ -204,7 +204,8 @@ style.css
 ```
 
 ## OUTPUT
-![Screenshot 2025-05-02 214928](https://github.com/user-attachments/assets/e77788c3-bad3-4c36-9669-fb61c6f0a541)
+![Screenshot 2025-05-02 215422](https://github.com/user-attachments/assets/0e29e928-16fc-453a-865a-4a9b6f3de289)
+
 ![Screenshot 2025-05-02 214942](https://github.com/user-attachments/assets/d68ee165-1333-4048-ba54-f42217f05989)
 
 
